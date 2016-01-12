@@ -4,12 +4,12 @@ module.exports = function(config){
     basePath : '../app',
 
     files : [
-      'lib/angular/angular.js',
+      '../app/lib/angular/angular.js',
       'lib/angular/angular-*.js',
-      '../test/lib/angular-mocks.js',
-      '../test/lib/sinon-1.15.0.js',
+      '/lib/angular-mocks.js',
+      '/lib/sinon-1.15.0.js',
       'js/**/*.js',
-      '../test/unit/**/*.js'
+      '/unit/**/*.js'
     ],
 
     autoWatch : true,
