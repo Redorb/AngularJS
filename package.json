@@ -12,6 +12,12 @@
   "author": "Joe Eames & Jim Cooper",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.4.8",
+    "angular-animate": "^1.4.8",
+    "angular-aria": "^1.4.8",
+    "angular-material": "^1.0.1",
+    "angular-resource": "^1.4.8",
+    "angular-route": "^1.4.8",
     "body-parser": "1.13.1",
     "express": "4.13.0"
   }
