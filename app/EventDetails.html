@@ -11,16 +11,34 @@
     <md-toolbar class="md-menu-toolbar">
         <md-menu-bar>
             <md-menu>
-                <md-button class="md-primary">
+                <button ng-click="$mdOpenMenu()">
                     Test
-                </md-button>
+                </button>
+                <md-menu-content>
+                  <md-menu-item>
+                    <md-button>
+                      Testing
+                    </md-button>
+                  </md-menu-item>
+                </md-menu-content>
             </md-menu>
         </md-menu-bar>
     </md-toolbar>
     <div ng-controller="EventController" ng-cloak>
-        {{event.name}}<br />
-        {{event.date}}<br />
-        {{event.time}}
+        <md-card>
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline">Testing cards</span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              <p>
+                {{event.name}}
+                {{event.date}}
+                {{event.time}}
+              </p>
+            </md-card-content>
+          </md-card>
     </div>
 </div>
 
